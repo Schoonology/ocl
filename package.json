@@ -1,0 +1,25 @@
+{
+  "name": "ocl",
+  "version": "1.0.0",
+  "description": "A git-style command parser for Optimist: the Optimist Command Loader.",
+  "main": "ocl.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "keywords": [
+    "optimist",
+    "command",
+    "loader",
+    "argv",
+    "commander"
+  ],
+  "author": "Michael Schoonmaker <michael.r.schoonmaker@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "optimist": "~0.6.0"
+  },
+  "devDependencies": {
+    "chai": "~1.8.1",
+    "mocha": "~1.14.0"
+  }
+}
