@@ -2,7 +2,7 @@
   "name": "ocl",
   "version": "1.0.0",
   "description": "A git-style command parser for Optimist: the Optimist Command Loader.",
-  "main": "ocl.js",
+  "main": "index.js",
   "scripts": {
     "test": "mocha --reporter spec"
   },
