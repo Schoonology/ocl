@@ -109,6 +109,10 @@ describe('Optimist Command Loader', function () {
 
       expect(global.lastCommand).to.equal('default');
     });
+
+    it('should return the command return value', function () {
+      expect(loader.run(['return'])).to.equal(42);
+    });
   });
 
   describe('loadCommand', function () {
